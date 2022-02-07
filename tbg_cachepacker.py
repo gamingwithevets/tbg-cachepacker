@@ -133,7 +133,7 @@ def exit_man():
 import argparse
 parser = argparse.ArgumentParser(description = 'Packs the contents of one or more folders into a file cache that is compatible with The Beginner\'s Guide.', epilog = '(c) 2022 GamingWithEvets Inc. All rights reserved.', formatter_class=argparse.RawTextHelpFormatter, allow_abbrev = False)
 parser.add_argument('filecache_path', nargs = '+', help = 'path to the directory(ies) you want to pack into the file cache')
-parser.add_argument('-e', '--export', metavar = 'FILENAME', nargs = '?', default = 'filecache.bin', help = 'export filename')
+parser.add_argument('-e', '--export', metavar = 'FILENAME', default = 'filecache.bin', help = 'export filename')
 parser.add_argument('-d', '--disablelog', action = 'store_true', help = 'disable logging')
 parser.add_argument('-o', '--overwrite', action = 'store_true', help = 'suppresses the export directory overwrite prompt')
 parser.add_argument('-n', '--newexport', action = 'store_true', help = 'prompts you to enter a new export directory name if the old one is taken')
