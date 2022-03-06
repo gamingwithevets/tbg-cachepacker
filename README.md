@@ -1,4 +1,5 @@
-**CACHEPACKER** is a program to pack files in a folder into a file cache for use in the game The Beginner's Guide. It is meant to be used with the [CACHERIPPER](https://github.com/gamingwithevets/tbg-cacheripper) tool.
+**CACHEPACKER** is a program to pack files in a folder into a file cache for use in the game The Beginner's Guide.  
+It can be used with the [CACHERIPPER](https://github.com/gamingwithevets/tbg-cacheripper) tool.
 
 # Requirements
 Again, only Python is required, but you can compile the program into an executable for people without Python.
