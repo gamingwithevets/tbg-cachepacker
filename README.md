@@ -11,13 +11,13 @@ tbg_cachepacker.py [-h, --help] [-e, --export FILENAME] [-d, --disablelog] [-o, 
 ## Parameters
 | Parameter | Description |
 |--|--|
-| filecache_path | Directories to pack into the file cache. Paths with drive letters aren't supported at the moment. |
-| -e, --export FILENAME | File cache name. Default is `filecache.bin`. |
-| -d, --disablelog | Disable logging. The program has no log function at the moment, so this is useless. |
-| -o, --overwrite | Overwrites the export file with the filename specified in `-e, --export` even if it exists.  |
-| -n, --newexport | Prompts you to enter a new export file name if a file with the old name exists. |
-| -p, --packcont | If only 1 folder is selected, packs its contents without asking. |
-| -a, --autoexit | Skips the two Enter presses required to exit the program. |
+| `filecache_path` | Directories to pack into the file cache. Paths with drive letters aren't supported at the moment. |
+| `-e, --export FILENAME` | File cache name. Default is `filecache.bin`. |
+| `-d, --disablelog` | Disable logging. The program has no log function at the moment, so this is useless. |
+| `-o, --overwrite` | Overwrites the export file with the filename specified in `-e, --export` even if it exists.  |
+| `-n, --newexport` | Prompts you to enter a new export file name if a file with the old name exists. |
+| `-p, --packcont` | If only 1 folder is selected, packs its contents without asking. |
+| `-a, --autoexit` | Skips the two Enter presses required to exit the program. |
 
 # Examples
 To pack files in the `files` and `files2` folder respectively, type:
